@@ -27,6 +27,32 @@ applications, others are smaller demonstrations meant to highlight a specific co
 
 <hr>
 
+<h2>Algorithms</h2>
+
+<p>
+The <strong>algorithms</strong> section contains small, focused demonstrations of classic sorting and
+searching techniques. Each example is written in C++ and kept intentionally simple so the
+core logic is easy to follow. These programs serve as clear references for fundamental
+algorithm behavior and complement the larger application‑style projects in the repository.
+</p>
+
+<h3>Sorting Algorithms</h3>
+
+<ul>
+  <li><strong>[Bubble Sort](ca://s?q=Tell_me_more_about_Bubble_Sort)</strong> — Repeatedly compares adjacent values and swaps them until the list is sorted.</li>
+  <li><strong>[Insertion Sort](ca://s?q=Tell_me_more_about_Insertion_Sort)</strong> — Builds a sorted portion of the list by inserting each value into its correct position.</li>
+  <li><strong>[Selection Sort](ca://s?q=Tell_me_more_about_Selection_Sort)</strong> — Finds the smallest value in the unsorted section and places it into position.</li>
+</ul>
+
+<h3>Searching Algorithms</h3>
+
+<ul>
+  <li><strong>[Linear Search](ca://s?q=Explain_Linear_Search)</strong> — Scans the list from left to right and returns the index of the target value.</li>
+  <li><strong>[Binary Search](ca://s?q=Explain_Binary_Search)</strong> — Uses midpoint checks to narrow the search range within a sorted list.</li>
+</ul>
+
+<hr>
+
 <h2>About the Code</h2>
 
 <p>
@@ -38,8 +64,9 @@ and a few menu‑driven interfaces.
 </p>
 
 <p>
-I’ve kept the formatting and structure close to the original assignment requirements,
-but the repository itself is organized in a way that makes sense outside the classroom.
+The algorithms section expands on these foundations by demonstrating core CS concepts
+in a straightforward way. Each example is self‑contained and easy to explore without
+extra setup.
 </p>
 
 <hr>
@@ -56,7 +83,16 @@ projects/
 │   pet_records/
 │
 utilities/
-    secret_journal_cipher/
+│   secret_journal_cipher/
+│
+algorithms/
+    sorting/
+        bubble_sort/
+        insertion_sort/
+        selection_sort/
+    searching/
+        linear_search/
+        binary_search/
 </pre>
 
 <hr>
