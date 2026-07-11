@@ -60,7 +60,7 @@ int Product::get_quantityOnHand() const
 
 // OTHER FUNCTIONS
 
-// Source: Professor Walter Williams
+
 // Calculates the total value of this product in inventory.
 // Formula: price * quantity
 // This function is used when generating the inventory report.
