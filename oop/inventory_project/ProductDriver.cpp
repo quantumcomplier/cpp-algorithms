@@ -2,8 +2,8 @@
 //CSIS 112 B01 202630
 
 
-//<Sources if necessary>
-// Professor Walter Williams
+//<Sources>
+// Professor Walter Williams - provided some recommended code for this assignment.
 
 //Include statements 
 #include <iostream>
